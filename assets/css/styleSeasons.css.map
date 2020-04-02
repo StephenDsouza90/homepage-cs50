@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC,EAAE,AAAA,OAAO,CAAC,CAAC,CAAC;EACpB,MAAM,EAAE,eAAe;CACxB;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3C,AAAA,EAAE,CAAC;IACD,KAAK,EAAE,OAAO;GACf",
+    "sources": [
+        "styleSeasons.scss"
+    ],
+    "names": [],
+    "file": "styleSeasons.css"
+}

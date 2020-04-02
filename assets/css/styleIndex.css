@@ -1,0 +1,65 @@
+#title, #middle {
+  height: auto;
+  margin-top: 30px;
+  float: left;
+  padding: 5px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.main-nav a:hover {
+  border: 1px solid white;
+}
+
+.main-nav li.active a {
+  border: 1px solid white;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  h1, p {
+    color: black;
+    font-weight: bolder;
+  }
+}
+/*# sourceMappingURL=styleIndex.css.map */

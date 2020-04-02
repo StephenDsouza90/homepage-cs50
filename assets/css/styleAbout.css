@@ -1,0 +1,32 @@
+.navbar-nav a {
+  color: white;
+}
+
+.navbar-nav li.active a {
+  border: 1px solid white;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+#borderimg {
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.summary {
+  text-indent: 50px;
+  text-align: justify;
+  padding: 5px 20px;
+}
+
+header {
+  background-color: lightgray;
+}
+/*# sourceMappingURL=styleAbout.css.map */
